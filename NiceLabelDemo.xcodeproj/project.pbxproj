@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474F7267199EFDFB00E34AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7266199EFDFB00E34AD2 /* AppDelegate.swift */; };
+		474F7269199EFDFB00E34AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7268199EFDFB00E34AD2 /* ViewController.swift */; };
+		474F726C199EFDFB00E34AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474F726A199EFDFB00E34AD2 /* Main.storyboard */; };
+		474F726E199EFDFB00E34AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474F726D199EFDFB00E34AD2 /* Images.xcassets */; };
+		474F727A199EFDFB00E34AD2 /* NiceLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7279199EFDFB00E34AD2 /* NiceLabelDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		474F7274199EFDFB00E34AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474F7259199EFDFB00E34AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474F7260199EFDFB00E34AD2;
+			remoteInfo = NiceLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		474F7261199EFDFB00E34AD2 /* NiceLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		474F7265199EFDFB00E34AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474F7266199EFDFB00E34AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		474F7268199EFDFB00E34AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474F726B199EFDFB00E34AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		474F726D199EFDFB00E34AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		474F7273199EFDFB00E34AD2 /* NiceLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		474F7278199EFDFB00E34AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474F7279199EFDFB00E34AD2 /* NiceLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceLabelDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		474F725E199EFDFB00E34AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474F7270199EFDFB00E34AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		474F7258199EFDFB00E34AD2 = {
+			isa = PBXGroup;
+			children = (
+				474F7263199EFDFB00E34AD2 /* NiceLabelDemo */,
+				474F7276199EFDFB00E34AD2 /* NiceLabelDemoTests */,
+				474F7262199EFDFB00E34AD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		474F7262199EFDFB00E34AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				474F7261199EFDFB00E34AD2 /* NiceLabelDemo.app */,
+				474F7273199EFDFB00E34AD2 /* NiceLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474F7263199EFDFB00E34AD2 /* NiceLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				474F7266199EFDFB00E34AD2 /* AppDelegate.swift */,
+				474F7268199EFDFB00E34AD2 /* ViewController.swift */,
+				474F726A199EFDFB00E34AD2 /* Main.storyboard */,
+				474F726D199EFDFB00E34AD2 /* Images.xcassets */,
+				474F7264199EFDFB00E34AD2 /* Supporting Files */,
+			);
+			path = NiceLabelDemo;
+			sourceTree = "<group>";
+		};
+		474F7264199EFDFB00E34AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				474F7265199EFDFB00E34AD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		474F7276199EFDFB00E34AD2 /* NiceLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				474F7279199EFDFB00E34AD2 /* NiceLabelDemoTests.swift */,
+				474F7277199EFDFB00E34AD2 /* Supporting Files */,
+			);
+			path = NiceLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		474F7277199EFDFB00E34AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				474F7278199EFDFB00E34AD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474F7260199EFDFB00E34AD2 /* NiceLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474F727D199EFDFB00E34AD2 /* Build configuration list for PBXNativeTarget "NiceLabelDemo" */;
+			buildPhases = (
+				474F725D199EFDFB00E34AD2 /* Sources */,
+				474F725E199EFDFB00E34AD2 /* Frameworks */,
+				474F725F199EFDFB00E34AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceLabelDemo;
+			productName = NiceLabelDemo;
+			productReference = 474F7261199EFDFB00E34AD2 /* NiceLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		474F7272199EFDFB00E34AD2 /* NiceLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474F7280199EFDFB00E34AD2 /* Build configuration list for PBXNativeTarget "NiceLabelDemoTests" */;
+			buildPhases = (
+				474F726F199EFDFB00E34AD2 /* Sources */,
+				474F7270199EFDFB00E34AD2 /* Frameworks */,
+				474F7271199EFDFB00E34AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474F7275199EFDFB00E34AD2 /* PBXTargetDependency */,
+			);
+			name = NiceLabelDemoTests;
+			productName = NiceLabelDemoTests;
+			productReference = 474F7273199EFDFB00E34AD2 /* NiceLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		474F7259199EFDFB00E34AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jiang Liyin";
+				TargetAttributes = {
+					474F7260199EFDFB00E34AD2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					474F7272199EFDFB00E34AD2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 474F7260199EFDFB00E34AD2;
+					};
+				};
+			};
+			buildConfigurationList = 474F725C199EFDFB00E34AD2 /* Build configuration list for PBXProject "NiceLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 474F7258199EFDFB00E34AD2;
+			productRefGroup = 474F7262199EFDFB00E34AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474F7260199EFDFB00E34AD2 /* NiceLabelDemo */,
+				474F7272199EFDFB00E34AD2 /* NiceLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		474F725F199EFDFB00E34AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474F726C199EFDFB00E34AD2 /* Main.storyboard in Resources */,
+				474F726E199EFDFB00E34AD2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474F7271199EFDFB00E34AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		474F725D199EFDFB00E34AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474F7269199EFDFB00E34AD2 /* ViewController.swift in Sources */,
+				474F7267199EFDFB00E34AD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474F726F199EFDFB00E34AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474F727A199EFDFB00E34AD2 /* NiceLabelDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474F7275199EFDFB00E34AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474F7260199EFDFB00E34AD2 /* NiceLabelDemo */;
+			targetProxy = 474F7274199EFDFB00E34AD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		474F726A199EFDFB00E34AD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474F726B199EFDFB00E34AD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		474F727B199EFDFB00E34AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		474F727C199EFDFB00E34AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		474F727E199EFDFB00E34AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NiceLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		474F727F199EFDFB00E34AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NiceLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		474F7281199EFDFB00E34AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NiceLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceLabelDemo.app/NiceLabelDemo";
+			};
+			name = Debug;
+		};
+		474F7282199EFDFB00E34AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NiceLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceLabelDemo.app/NiceLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474F725C199EFDFB00E34AD2 /* Build configuration list for PBXProject "NiceLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474F727B199EFDFB00E34AD2 /* Debug */,
+				474F727C199EFDFB00E34AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474F727D199EFDFB00E34AD2 /* Build configuration list for PBXNativeTarget "NiceLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474F727E199EFDFB00E34AD2 /* Debug */,
+				474F727F199EFDFB00E34AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		474F7280199EFDFB00E34AD2 /* Build configuration list for PBXNativeTarget "NiceLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474F7281199EFDFB00E34AD2 /* Debug */,
+				474F7282199EFDFB00E34AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 474F7259199EFDFB00E34AD2 /* Project object */;
+}
