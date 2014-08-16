@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		474F7267199EFDFB00E34AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7266199EFDFB00E34AD2 /* AppDelegate.swift */; };
-		474F7269199EFDFB00E34AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7268199EFDFB00E34AD2 /* ViewController.swift */; };
+		474F7269199EFDFB00E34AD2 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7268199EFDFB00E34AD2 /* CreateViewController.swift */; };
 		474F726C199EFDFB00E34AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474F726A199EFDFB00E34AD2 /* Main.storyboard */; };
 		474F726E199EFDFB00E34AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474F726D199EFDFB00E34AD2 /* Images.xcassets */; };
 		474F727A199EFDFB00E34AD2 /* NiceLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F7279199EFDFB00E34AD2 /* NiceLabelDemoTests.swift */; };
+		47FD2953199F78A000091D08 /* MultiplePulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2950199F78A000091D08 /* MultiplePulsingHaloLayer.m */; };
+		47FD2954199F78A000091D08 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2952199F78A000091D08 /* PulsingHaloLayer.m */; };
+		47FD2959199F78D100091D08 /* IMG_0097.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47FD2955199F78D100091D08 /* IMG_0097.jpg */; };
+		47FD295A199F78D100091D08 /* NiceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2956199F78D100091D08 /* NiceLabel.swift */; };
+		47FD295B199F78D100091D08 /* NiceLabelImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2957199F78D100091D08 /* NiceLabelImageView.swift */; };
+		47FD295C199F78D100091D08 /* NiceLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2958199F78D100091D08 /* NiceLabelView.swift */; };
+		47FD295E199F78F300091D08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FD295D199F78F300091D08 /* QuartzCore.framework */; };
+		47FD2962199F910C00091D08 /* NiceLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2961199F910C00091D08 /* NiceLabelModel.swift */; };
+		47FD2964199F9E2D00091D08 /* NiceContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2963199F9E2D00091D08 /* NiceContent.swift */; };
+		47FD2966199F9F1F00091D08 /* NiceShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD2965199F9F1F00091D08 /* NiceShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +38,25 @@
 		474F7261199EFDFB00E34AD2 /* NiceLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		474F7265199EFDFB00E34AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474F7266199EFDFB00E34AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		474F7268199EFDFB00E34AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474F7268199EFDFB00E34AD2 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		474F726B199EFDFB00E34AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474F726D199EFDFB00E34AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		474F7273199EFDFB00E34AD2 /* NiceLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		474F7278199EFDFB00E34AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474F7279199EFDFB00E34AD2 /* NiceLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceLabelDemoTests.swift; sourceTree = "<group>"; };
+		47FD294A199F788E00091D08 /* NiceLabelDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceLabelDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		47FD294F199F78A000091D08 /* MultiplePulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplePulsingHaloLayer.h; sourceTree = "<group>"; };
+		47FD2950199F78A000091D08 /* MultiplePulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplePulsingHaloLayer.m; sourceTree = "<group>"; };
+		47FD2951199F78A000091D08 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		47FD2952199F78A000091D08 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		47FD2955199F78D100091D08 /* IMG_0097.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0097.jpg; sourceTree = "<group>"; };
+		47FD2956199F78D100091D08 /* NiceLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceLabel.swift; sourceTree = "<group>"; };
+		47FD2957199F78D100091D08 /* NiceLabelImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceLabelImageView.swift; sourceTree = "<group>"; };
+		47FD2958199F78D100091D08 /* NiceLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceLabelView.swift; sourceTree = "<group>"; };
+		47FD295D199F78F300091D08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		47FD2961199F910C00091D08 /* NiceLabelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceLabelModel.swift; sourceTree = "<group>"; };
+		47FD2963199F9E2D00091D08 /* NiceContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceContent.swift; sourceTree = "<group>"; };
+		47FD2965199F9F1F00091D08 /* NiceShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceShowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47FD295E199F78F300091D08 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +81,8 @@
 		474F7258199EFDFB00E34AD2 = {
 			isa = PBXGroup;
 			children = (
+				47FD295D199F78F300091D08 /* QuartzCore.framework */,
+				47FD294E199F78A000091D08 /* PulsingHalo */,
 				474F7263199EFDFB00E34AD2 /* NiceLabelDemo */,
 				474F7276199EFDFB00E34AD2 /* NiceLabelDemoTests */,
 				474F7262199EFDFB00E34AD2 /* Products */,
@@ -75,11 +101,19 @@
 		474F7263199EFDFB00E34AD2 /* NiceLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				47FD2955199F78D100091D08 /* IMG_0097.jpg */,
+				47FD2956199F78D100091D08 /* NiceLabel.swift */,
+				47FD2957199F78D100091D08 /* NiceLabelImageView.swift */,
+				47FD2958199F78D100091D08 /* NiceLabelView.swift */,
 				474F7266199EFDFB00E34AD2 /* AppDelegate.swift */,
-				474F7268199EFDFB00E34AD2 /* ViewController.swift */,
+				474F7268199EFDFB00E34AD2 /* CreateViewController.swift */,
 				474F726A199EFDFB00E34AD2 /* Main.storyboard */,
 				474F726D199EFDFB00E34AD2 /* Images.xcassets */,
 				474F7264199EFDFB00E34AD2 /* Supporting Files */,
+				47FD294A199F788E00091D08 /* NiceLabelDemo-Bridging-Header.h */,
+				47FD2961199F910C00091D08 /* NiceLabelModel.swift */,
+				47FD2963199F9E2D00091D08 /* NiceContent.swift */,
+				47FD2965199F9F1F00091D08 /* NiceShowViewController.swift */,
 			);
 			path = NiceLabelDemo;
 			sourceTree = "<group>";
@@ -107,6 +141,17 @@
 				474F7278199EFDFB00E34AD2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47FD294E199F78A000091D08 /* PulsingHalo */ = {
+			isa = PBXGroup;
+			children = (
+				47FD294F199F78A000091D08 /* MultiplePulsingHaloLayer.h */,
+				47FD2950199F78A000091D08 /* MultiplePulsingHaloLayer.m */,
+				47FD2951199F78A000091D08 /* PulsingHaloLayer.h */,
+				47FD2952199F78A000091D08 /* PulsingHaloLayer.m */,
+			);
+			path = PulsingHalo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				474F726C199EFDFB00E34AD2 /* Main.storyboard in Resources */,
+				47FD2959199F78D100091D08 /* IMG_0097.jpg in Resources */,
 				474F726E199EFDFB00E34AD2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +254,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474F7269199EFDFB00E34AD2 /* ViewController.swift in Sources */,
+				47FD2966199F9F1F00091D08 /* NiceShowViewController.swift in Sources */,
+				47FD295A199F78D100091D08 /* NiceLabel.swift in Sources */,
+				47FD2954199F78A000091D08 /* PulsingHaloLayer.m in Sources */,
+				47FD2953199F78A000091D08 /* MultiplePulsingHaloLayer.m in Sources */,
+				47FD2964199F9E2D00091D08 /* NiceContent.swift in Sources */,
+				474F7269199EFDFB00E34AD2 /* CreateViewController.swift in Sources */,
+				47FD295B199F78D100091D08 /* NiceLabelImageView.swift in Sources */,
+				47FD295C199F78D100091D08 /* NiceLabelView.swift in Sources */,
 				474F7267199EFDFB00E34AD2 /* AppDelegate.swift in Sources */,
+				47FD2962199F910C00091D08 /* NiceLabelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NiceLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NiceLabelDemo/NiceLabelDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +394,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NiceLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NiceLabelDemo/NiceLabelDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +456,7 @@
 				474F727F199EFDFB00E34AD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		474F7280199EFDFB00E34AD2 /* Build configuration list for PBXNativeTarget "NiceLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +465,7 @@
 				474F7282199EFDFB00E34AD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

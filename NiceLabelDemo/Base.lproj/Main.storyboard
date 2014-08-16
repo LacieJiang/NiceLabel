@@ -1,25 +1,149 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6162" systemVersion="14A238h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw8-cC-TOf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6160"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Nice Show View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="NiceShowViewController" customModule="NiceLabelDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXa-nH-j7G" customClass="NiceLabelView" customModule="NiceLabelDemo" customModuleProvider="target">
+                                <rect key="frame" x="140" y="64" width="320" height="320"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V5g-aK-Tl9" customClass="NiceLabelImageView" customModule="NiceLabelDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="V5g-aK-Tl9" firstAttribute="top" secondItem="QXa-nH-j7G" secondAttribute="top" id="9TC-Ty-DGe"/>
+                                    <constraint firstAttribute="bottom" secondItem="V5g-aK-Tl9" secondAttribute="bottom" id="Uba-ni-KOz"/>
+                                    <constraint firstAttribute="trailing" secondItem="V5g-aK-Tl9" secondAttribute="trailing" id="UhU-pI-uB6"/>
+                                    <constraint firstItem="V5g-aK-Tl9" firstAttribute="leading" secondItem="QXa-nH-j7G" secondAttribute="leading" id="ct9-AY-6cw"/>
+                                    <constraint firstAttribute="height" constant="320" id="ibV-yJ-fVX"/>
+                                    <constraint firstAttribute="width" constant="320" id="qVT-Le-LfS"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="V5g-aK-Tl9" id="mv7-eN-yrs"/>
+                                    <outletCollection property="gestureRecognizers" destination="Grj-Ns-EVO" appends="YES" id="tgF-jH-8ca"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="QXa-nH-j7G" secondAttribute="centerX" id="OOA-QZ-pnF"/>
+                            <constraint firstItem="QXa-nH-j7G" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="rbr-JB-2oo"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="DHg-qD-TJj"/>
+                    <connections>
+                        <outlet property="createBarItem" destination="DHg-qD-TJj" id="Hez-Bm-vci"/>
+                        <outlet property="niceLabelView" destination="QXa-nH-j7G" id="RFJ-ls-4AA"/>
+                        <segue destination="an7-YA-AIa" kind="show" identifier="ShowCreate" id="70f-jT-g1P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Grj-Ns-EVO">
+                    <connections>
+                        <action selector="handleTapGesture:" destination="QXa-nH-j7G" id="Bch-bz-gZ6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="789" y="465"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Bg-fa-80T">
+            <objects>
+                <navigationController id="Zw8-cC-TOf" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Aeb-bf-odO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="pmL-fw-2py"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBM-CM-NRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16" y="472"/>
+        </scene>
+        <!--标记标签-->
+        <scene sceneID="1nD-tE-Zaz">
+            <objects>
+                <viewController title="标记标签" id="an7-YA-AIa" customClass="CreateViewController" customModule="NiceLabelDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3os-yT-QoK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hez-F8-ZfN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6p3-pU-ssg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1XO-bp-ADo" customClass="NiceLabelView" customModule="NiceLabelDemo" customModuleProvider="target">
+                                <rect key="frame" x="140" y="64" width="320" height="320"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YDe-TL-44Z" customClass="NiceLabelImageView" customModule="NiceLabelDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="YDe-TL-44Z" firstAttribute="top" secondItem="1XO-bp-ADo" secondAttribute="top" id="Kz4-aQ-P2i"/>
+                                    <constraint firstAttribute="height" constant="320" id="RKH-rN-mcU"/>
+                                    <constraint firstAttribute="width" constant="320" id="TWP-Lh-JSi"/>
+                                    <constraint firstAttribute="trailing" secondItem="YDe-TL-44Z" secondAttribute="trailing" id="UmY-2n-yrI"/>
+                                    <constraint firstAttribute="bottom" secondItem="YDe-TL-44Z" secondAttribute="bottom" id="b6U-xy-cJ3"/>
+                                    <constraint firstItem="YDe-TL-44Z" firstAttribute="leading" secondItem="1XO-bp-ADo" secondAttribute="leading" id="d4j-DF-1vh"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="YDe-TL-44Z" id="Ora-pd-ZT9"/>
+                                    <outletCollection property="gestureRecognizers" destination="d7R-RV-Ogo" appends="YES" id="0XI-c2-hth"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击图片，添加标签" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXL-10-izd">
+                                <rect key="frame" x="140" y="461" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="9EZ-Fn-Z4Q"/>
+                                    <constraint firstAttribute="height" constant="20" id="cqx-RR-lcF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kXL-10-izd" secondAttribute="centerX" id="M15-Lc-XP4"/>
+                            <constraint firstAttribute="centerX" secondItem="1XO-bp-ADo" secondAttribute="centerX" id="Qd3-sG-RaZ"/>
+                            <constraint firstItem="kXL-10-izd" firstAttribute="top" secondItem="1XO-bp-ADo" secondAttribute="bottom" constant="77" id="S88-SO-0mc"/>
+                            <constraint firstItem="1XO-bp-ADo" firstAttribute="top" secondItem="3os-yT-QoK" secondAttribute="bottom" id="VRL-uS-2Kt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uIC-ke-EID"/>
+                    <connections>
+                        <outlet property="niceLabelView" destination="1XO-bp-ADo" id="M8N-0b-yg4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ex6-ny-8zj" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="d7R-RV-Ogo">
+                    <connections>
+                        <action selector="handleTapGesture:" destination="1XO-bp-ADo" id="lnB-hG-1ZA"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1421" y="454"/>
         </scene>
     </scenes>
 </document>
