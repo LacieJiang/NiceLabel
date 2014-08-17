@@ -25,6 +25,7 @@ class NiceLabel: UIView {
   private var contentLabelBkg: UIImageView?
   private var pointOnleft = true
   private var stop = false
+  private var lastPosi: CGPoint?
 
   override init() {
     super.init()
@@ -58,6 +59,10 @@ class NiceLabel: UIView {
     var tapGesture: UITapGestureRecognizer = UITapGestureRecognizer()
     tapGesture.addTarget(self, action: Selector("handleTapGesture:"))
     self.addGestureRecognizer(tapGesture)
+    var panGesture: UIPanGestureRecognizer = UIPanGestureRecognizer()
+    panGesture.addTarget(self, action: Selector("handlePanGesture:"))
+    self.addGestureRecognizer(panGesture)
+
 
     contentLabelBkg = UIImageView(image: UIImage(named: "KK_Filter_btn_black"))
     typeImg = UIImage(named: "KK_Brand_Tag_point_white")
@@ -102,6 +107,14 @@ class NiceLabel: UIView {
     if delegate != nil {
       delegate!.selectTheLabel(self)
     }
+  }
+
+  func handlePanGesture(pan: UIPanGestureRecognizer!) {
+    let translatedPoint = pan.translationInView(self.superview)
+    let x = pan.view.center.x + translatedPoint.x
+    let y = pan.view.center.y + translatedPoint.y
+    pan.view.center = CGPointMake(x, y)
+    pan.setTranslation(CGPointZero, inView: self.superview)
   }
 
   override func animationDidStart(anim: CAAnimation!) {

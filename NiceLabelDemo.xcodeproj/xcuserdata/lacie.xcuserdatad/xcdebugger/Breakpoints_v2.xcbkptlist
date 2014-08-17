@@ -9,22 +9,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NiceLabelDemo/NiceLabel.swift"
-            timestampString = "429888753.14742"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "handleTapGesture(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "NiceLabelDemo/CreateViewController.swift"
             timestampString = "429945929.125694"
             startingColumnNumber = "9223372036854775807"
@@ -72,8 +56,8 @@
                   continueAfterRunningActions = "No"
                   symbolName = "NiceLabelDemo.NiceLabelView.handleTapGesture (NiceLabelDemo.NiceLabelView)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITapGestureRecognizer&gt;) -&gt; ()"
                   moduleName = "NiceLabelDemo"
-                  urlString = "file:///Users/lacie/study/NiceLabelDemo/NiceLabelDemo/NiceLabelView.swift"
-                  timestampString = "429947299.351718"
+                  urlString = "file:///Users/lacie/study/NiceLabel/NiceLabelDemo/NiceLabelView.swift"
+                  timestampString = "429948777.367882"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
@@ -86,8 +70,8 @@
                   continueAfterRunningActions = "No"
                   symbolName = "NiceLabelDemo.NiceLabelView.handleTapGesture (NiceLabelDemo.NiceLabelView)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITapGestureRecognizer&gt;) -&gt; ()"
                   moduleName = "NiceLabelDemo"
-                  urlString = "file:///Users/lacie/study/NiceLabelDemo/NiceLabelDemo/NiceLabelView.swift"
-                  timestampString = "429947299.352071"
+                  urlString = "file:///Users/lacie/study/NiceLabel/NiceLabelDemo/NiceLabelView.swift"
+                  timestampString = "429948777.368328"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"

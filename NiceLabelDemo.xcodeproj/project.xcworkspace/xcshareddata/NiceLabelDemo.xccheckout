@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CEA0725-7C92-4356-A928-19B91CA6959F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NiceLabelDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>506DDA6C98297D0FC5D10E9E38873564BDB472BB</key>
+		<string>https://github.com/LacieJiang/NiceLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NiceLabelDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>506DDA6C98297D0FC5D10E9E38873564BDB472BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LacieJiang/NiceLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>506DDA6C98297D0FC5D10E9E38873564BDB472BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>506DDA6C98297D0FC5D10E9E38873564BDB472BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NiceLabel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

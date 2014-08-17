@@ -39,11 +39,23 @@
                                     <outletCollection property="gestureRecognizers" destination="Grj-Ns-EVO" appends="YES" id="tgF-jH-8ca"/>
                                 </connections>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="显示图片后，请点击图片显示标签" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQC-o1-NbK">
+                                <rect key="frame" x="140" y="469" width="320" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="SJJ-UJ-jat"/>
+                                    <constraint firstAttribute="height" constant="21" id="yqD-hm-fs2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="QXa-nH-j7G" secondAttribute="centerX" id="OOA-QZ-pnF"/>
+                            <constraint firstAttribute="centerX" secondItem="NQC-o1-NbK" secondAttribute="centerX" id="Y1k-HU-cdu"/>
                             <constraint firstItem="QXa-nH-j7G" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="rbr-JB-2oo"/>
+                            <constraint firstItem="NQC-o1-NbK" firstAttribute="top" secondItem="QXa-nH-j7G" secondAttribute="bottom" constant="85" id="vqK-QB-Ugb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DHg-qD-TJj"/>
